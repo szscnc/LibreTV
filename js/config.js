@@ -57,6 +57,26 @@ const API_SITES = {
         api: 'https://360zy.com/api.php/provide/vod',
         name: '360资源',
     },
+     gaoqing: {
+        api: 'https://api.yzzy-api.com/inc/api_mac10_all.php',
+        name: '优质高清',
+    },
+    huya: {
+        api: 'https://www.huyaapi.com/api.php/provide/vod/at/json',
+        name: '虎牙资源',
+    },
+    guangsu: {
+        api: 'https://api.guangsuapi.com/api.php/provide/vod',
+        name: '光速资源',
+    },
+    kuaiche: {
+        api: 'https://caiji.kuaichezy.org/api.php/provide/vod',
+        name: '快车资源',
+    },
+    hongniu: {
+        api: 'https://www.hongniuzy2.com/api.php/provide/vod',
+        name: '红牛资源',
+    },
     iqiyi: {
         api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
         name: 'iqiyi资源',
