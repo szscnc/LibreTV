@@ -7,7 +7,7 @@ services:
     environment:
 #      - PASSWORD=${PASSWORD:-your_password} # 可将 your_password 修改为你想要的密码，默认为 your_password
 #    volumes:
-#      - libretv_data:/app # 不要修改
+      - /volume1/docker/libretv/data:/app # 不要修改
     restart: unless-stopped
 
 #volumes:
